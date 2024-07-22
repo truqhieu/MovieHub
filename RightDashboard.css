@@ -1,0 +1,30 @@
+.userInfo {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  overflow: hidden;
+  align-items: center;
+
+  background-image: url("/public/assets/img/StaryBackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  h1 {
+    color: #f9004d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: auto;
+  }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin-left: 40px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
